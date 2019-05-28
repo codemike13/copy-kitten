@@ -1,11 +1,22 @@
-* {
-    box-sizing: border-box;
+.cool {
+  margin-top: 40px;
+  box-sizing: border-box;
+  background: rgb(87, 160, 226);
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 3px rgba(43, 81, 114, 1);
 }
 
-div {
-
+.cool:hover {
+  margin-top: 45px;
+  box-shadow: 0 5px 5px 5px rgba(43, 81, 114, 0);
 }
 
 a {
-    
+  text-decoration: none;
+  color: white;
 }
