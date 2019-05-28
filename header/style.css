@@ -1,4 +1,25 @@
-* { 
-	margin: 0;
-	box-sizing: border-box;
+body {
+  width: 100%;
+  text-align: center;
+}
+div {
+  margin-top: 40px;
+  padding-bottom: 4px;
+  padding-top:3px;
+  display: inline-block;
+  background: rgb(64, 65, 72);
+ width: 100%;
+}
+a {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  color:rgb(207,204,205)
+}
+
+a:hover{
+	color:rgb(100,166, 151)
 }
