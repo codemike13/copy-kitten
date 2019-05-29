@@ -7,11 +7,11 @@ body{
     width:125px;
     height: auto;
     text-align:center;
-    overflow: hidden;
+  
 }
 
 div {
-  
+ 
 padding-bottom: 12px;
    padding-top: 12px;
    width:auto;
@@ -27,7 +27,8 @@ a {
     padding-left: 5px;
     padding-bottom: 10px;
     padding-top:7px;
-    margin-left:3px
+    margin-left:3px;
+    transition: background-color .5s, transform 1s;
 }
 
 /* .a2 {
@@ -56,35 +57,83 @@ a {
     margin-left:3px
 } */
 
+
+
 body > div:nth-child(1) > a:nth-child(1){
     border-top:none;
     border-left:none;
     
 }
 body > div:nth-child(1) > a:nth-child(2){
-   border-top:none
+   border-top:none;
+   background:white;
 }
 body > div:nth-child(1) > a:nth-child(3){
     border-top:none;
     border-right:none;
+    background:white
 }
 body > div:nth-child(2) > a:nth-child(1){
     border-left:none;
+    background:white
 }
 body > div:nth-child(2) > a:nth-child(2){
-    
+    background:white
 }
 body > div:nth-child(2) > a:nth-child(3){
     border-right:none;
+    background: white
 }
 body > div:nth-child(3) > a:nth-child(1){
     border-left:none;
     border-bottom:none;
+    background:white
 }
 body > div:nth-child(3) > a:nth-child(2){
     border-bottom:none;
+    background:white
 }
 body > div:nth-child(3) > a:nth-child(3){
    border-bottom:none;
    border-right:none;
+   background-color:white ;
+}
+
+  
+
+body > div:nth-child(1) > a:nth-child(1):hover{
+   
+    background:red;
+    
+}
+body > div:nth-child(1) > a:nth-child(2):hover{
+  
+   background:pink;
+}
+body > div:nth-child(1) > a:nth-child(3):hover{
+   
+    background:orange;
+}
+body > div:nth-child(2) > a:nth-child(1):hover{
+    
+    background:green;
+}
+body > div:nth-child(2) > a:nth-child(2):hover{
+    background:purple
+}
+body > div:nth-child(2) > a:nth-child(3):hover{
+    
+    background: yellow
+}
+body > div:nth-child(3) > a:nth-child(1):hover{
+    
+    background:magenta
+}
+body > div:nth-child(3) > a:nth-child(2):hover{
+    
+    background:lightblue
+}
+body > div:nth-child(3) > a:nth-child(3):hover{
+ 
+   background-color:whitesmoke ;
 }
