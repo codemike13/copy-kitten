@@ -7,19 +7,23 @@ body{
   box-sizing: border-box;
   background: rgb(87, 160, 226);
   border-radius: 5px;
+  border:olive inset;
   text-align: center;
   margin-left: 500px;
   
   width:300px;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0 3px rgba(43, 81, 114, 1 );
+  box-shadow: 0 3px 10px 10px rgba(43, 81, 114, 1 ) inset;
+  transform:font-size 2s;
   
 }
 
 .cool:hover {
   margin-top: 45px;
   box-shadow: none;
+  
+  
 }
 
 a {
